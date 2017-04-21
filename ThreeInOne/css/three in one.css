@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.frame{
+    width: 400px;
+    height: 480px;
+    margin-left: 200px;
+    margin-top: 100px;
+    position: relative;
+}
+.frame .bigimg{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+}
+.frame .imgli{
+    position: relative;
+    height: 70px;
+    padding-top: 10px;
+}
+
+.magnifybox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #FEDE4F;
+    opacity: 0.6;
+    cursor:move;
+}
+
+.magnify{
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left:400px;
+}
+/*¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü´óÍ¼ÇøÓò¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü*/
+
+.frame .bigimg .img{
+    height: 100%;
+    display: none;
+}
+
+.frame .bigimg .img img{
+    height: 200px;
+    width: 1000px;
+}
+#img1{
+    display: block;
+    background-image: url("../image/bg.jpg");
+    background-size: 1000px 200px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.imgli ul{
+    list-style: none;
+}
+
+.imgli ul li{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.imgli ul li img{
+    width: 60px;
+    height: 60px;
+}
+
+.bottom{
+    position: absolute;
+    top:260px;
+    left:10px;
+    background-color: #F69810;
+    width:60px;
+    height: 10px;
+    border-radius: 10%;
+}
